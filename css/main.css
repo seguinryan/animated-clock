@@ -8,3 +8,12 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+.clock-face {
+  height: 300px;
+  margin: 50px auto;
+  position: relative;
+  width: 225px;
+
+  background: transparent url("../images/clock-face.svg") no-repeat center center;
+}

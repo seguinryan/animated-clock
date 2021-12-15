@@ -24,3 +24,15 @@ html {
     position: absolute;
     width: 28px;
   }
+
+  .hand {
+    bottom: calc(50% - 8px);
+    left: calc(50% - 7px);
+    position: absolute;
+    width: 14px;
+
+    transform-origin: 50% calc(100% - 8px);
+  }
+
+  .hand-minute {
+    animation: hand-rotate .5s linear infinite;

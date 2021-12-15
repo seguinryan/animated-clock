@@ -46,8 +46,8 @@ html {
 
   100% {
     transform: rotate(360deg);
-}
+  }
 
-.hand-hour {
-  animation: hand-rotate 6s linear infinite;
-}
+  .hand-hour {
+    animation: hand-rotate 6s linear infinite;
+  }
